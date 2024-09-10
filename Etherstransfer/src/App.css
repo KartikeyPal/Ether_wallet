@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #242222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #2a37eb;
+  color: white;
+  /* padding: 10px 20px; */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  height: 35px;
+  width: 120px;
+}
+.button1{
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  height: 35px;
+  width: 150px;
+}
+.button1:hover{
+  background-color: #8e1401 ;
+}
+button:hover {
+  background-color: #8e1401;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ff0901;
+  background-color: #ccc8c8;
+  color: rgb(30, 30, 31);
+  width: calc(100% - 24px);
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+h1, h2 {
+  color: #fffcfc;
+}
+
+.balance {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.transfer-container {
+  margin-top: 30px;
+}
+
+.transfer-container h1 {
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: #e53935;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.connectMetamask{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 00px 100px 0px 150px
+}
+.heading1{
+  width: 800px;
+  text-align: start;
+}
+
+.label{
+  color: white;
+}
+.input{
+  padding: 0px 100px 0px 100px;
+}
+.button2{
+  text-align: end;
+  padding: 0px 10px 0px 0px;
+}
+.transferEther{
+  padding: 2px 15px 2px 15px;
+  width: 200px;
+}
